@@ -1,0 +1,14 @@
+/* Ensure the modal has the highest z-index */
+.modal {
+    z-index: 1050 !important;
+  }
+  
+  /* Ensure sidebar and navbar have lower z-index */
+  .sidebar {
+    z-index: 1000;
+  }
+  
+  .navbar {
+    z-index: 1000;
+  }
+  
